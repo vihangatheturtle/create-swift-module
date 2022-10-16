@@ -1,14 +1,15 @@
 {
-  "name": "create-swift-hotswap-module",
-  "version": "1.0.0",
+  "name": "create-swift-module",
+  "version": "1.0.3",
   "description": "",
-  "main": "bin/index.js",
-  "bin": {
-    "create-swift-module": "bin/index.js"
+  "bin": "index.js",
+  "scripts": {
+    "start": "index.js"
   },
-  "author": "",
+  "author": "Turtlee (turtleee)",
   "license": "ISC",
   "dependencies": {
+    "create-swift-module": "^1.0.3",
     "git-pull-or-clone": "^2.0.2",
     "inquirer": "^8.2.4",
     "uuid": "^9.0.0"
