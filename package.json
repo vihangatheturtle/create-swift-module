@@ -1,0 +1,16 @@
+{
+  "name": "create-swift-hotswap-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "bin": {
+    "create-swift-module": "bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "git-pull-or-clone": "^2.0.2",
+    "inquirer": "^8.2.4",
+    "uuid": "^9.0.0"
+  }
+}
